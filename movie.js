@@ -1,7 +1,6 @@
 
 function run(){
 var movie_name = document.getElementById("input").value
-console
 const url = 'https://streaming-availability.p.rapidapi.com/v2/search/title?title='+movie_name+'&country=us&show_type=movie&output_language=en';
 const options = {
   method: 'GET',
