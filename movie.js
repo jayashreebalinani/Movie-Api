@@ -9,7 +9,7 @@ const options = {
     'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com'
   }
 };
-<.
+<
 fetch(url,options)
 .then(response => response.json())
 .then(response => console.log(response))
